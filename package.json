@@ -1,0 +1,16 @@
+{
+  "name": "watch-traverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/testfile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.4.1",
+    "acorn-walk": "^8.1.1"
+  }
+}
