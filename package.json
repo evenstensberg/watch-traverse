@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "node ./test/testfile.js"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": ["watch", "fs", "watchFile"],
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "acorn": "^8.4.1",
     "acorn-walk": "^8.1.1",
-    "node-resolve": "^1.3.4"
+    "json-to-ast": "^2.1.0"
   }
 }
