@@ -1,7 +1,7 @@
 {
   "name": "watch-traverse",
   "version": "1.0.0",
-  "description": "",
+  "description": "A file watcher for all dependencies",
   "main": "index.js",
   "keywords": ["watch", "fs", "watchFile"],
   "author": "Even Stensberg <evenstensberg@gmail.com>",
