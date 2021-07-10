@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A file watcher for all dependencies",
   "main": "index.js",
-  "keywords": ["watch", "fs", "watchFile"],
+  "keywords": [
+    "watch",
+    "fs",
+    "watchFile"
+  ],
   "author": "Even Stensberg <evenstensberg@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "acorn": "^8.4.1",
-    "acorn-walk": "^8.1.1",
-    "json-to-ast": "^2.1.0"
+    "dependency-tree": "^8.1.1"
   }
 }

@@ -14,12 +14,14 @@ npm install --save watch-traverse
 
 ```js
 const path = require('path');
-const watchFile = require('watch-traverse')
-const resolved = path.resolve(__dirname, 'webpack.config.js')
+const watchFile = require('watch-traverse');
+const resolved = path.resolve(__dirname, 'webpack.config.js');
+
 
 watchFile(resolved, (contents) => {
-    console.log("Changed")
-})
+    console.log("watching file has changed...")
+});
+
 ```
 
 ## Need help or want to donate to help me make Open Source projects?
